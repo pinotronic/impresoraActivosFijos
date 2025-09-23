@@ -1,0 +1,154 @@
+# ===============================================
+# GITIGNORE PARA PROYECTO IMPRESORA SAPAL
+# ===============================================
+
+# ===== ARCHIVOS SENSIBLES =====
+# Nunca subir credenciales o configuraciones sensibles
+config.key
+*.key
+*.credentials
+*.secret
+
+# ===== ARCHIVOS COMPILADOS DE PYTHON =====
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuciones de Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== EJECUTABLES GENERADOS =====
+# Ejecutables de PyInstaller
+*.exe
+*.app
+*.dmg
+*.deb
+*.rpm
+
+# Archivos de PyInstaller
+*.spec
+build/
+dist/
+
+# ===== DIRECTORIO DISTRIBUIBLE COMPLETO =====
+# Excluir toda la carpeta de distribución
+Impresora_SAPAL_Distribuible/
+
+# ===== ENTORNOS VIRTUALES =====
+# Directorios de entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# ===== ARCHIVOS DEL SISTEMA =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ===== ARCHIVOS DE EDITORES/IDEs =====
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===== ARCHIVOS TEMPORALES =====
+# Archivos temporales generales
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+
+# ===== ARCHIVOS DE CONFIGURACIÓN LOCAL =====
+# Archivos de configuración específicos del desarrollador
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===== ARCHIVOS DE DOCUMENTACIÓN TEMPORAL =====
+# Documentos temporales de desarrollo
+*.draft
+*.wip
+
+# ===== OTROS ARCHIVOS ESPECÍFICOS DEL PROYECTO =====
+# Archivos de batch de creación (opcionales, depende de la política)
+# crear_ejecutable.bat
+# crear_ejecutable_gui.bat
+
+# Archivos de configuración auto-py-to-exe
+config_auto_py_to_exe.json
+
+# ===============================================
+# ARCHIVOS QUE SÍ DEBEN INCLUIRSE EN EL REPO:
+# ===============================================
+# ✅ main.py - Código principal
+# ✅ main_fixed.py - Versión corregida
+# ✅ final_bpac_script.py - Script final
+# ✅ label_printer_gui.py - Interfaz gráfica
+# ✅ Diseno.lbx - Plantilla de etiqueta
+# ✅ README_EJECUTABLES.md - Documentación
+# ✅ GUIA_EJECUTABLES.md - Guía
+# ✅ TODO_COMPLETADO.md - Lista de tareas
+# ✅ RESPUESTA_FINAL.md - Documentación final
+# ✅ .gitignore - Este archivo
+# ===============================================
